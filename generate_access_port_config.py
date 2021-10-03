@@ -14,7 +14,7 @@ for intf, vlan in fast_int["access"].items():
             print(" {} {}".format(command, vlan))
         else:
             print(" {}".format(command))
-"""
+"""#
 Example:
 
 python generate_access_port_config.py
